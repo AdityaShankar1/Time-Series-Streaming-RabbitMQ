@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Romania Electricity Report</title>
+</head>
+<body style="background-image: url('{{ url_for('static', filename='evgeniy-alyoshin-powergrid-unsplash.jpg') }}');
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             font-family: Arial;">
+
+    <center>
+        <h1 style="color:white; background-color:rgba(0,0,0,0.6); padding:10px; border-radius:8px;">
+            ⚡ Romania Electricity Analysis ⚡
+        </h1>
+        <p style="color:white; background-color:rgba(0,0,0,0.5); padding:5px; border-radius:5px;">
+            Static dashboard generated from Pandas outputs
+        </p>
+
+        <hr width="70%">
+
+        <h2 style="color:yellow; background-color:rgba(0,0,0,0.5); padding:5px; border-radius:5px;">
+            Daily Average Consumption vs Production
+        </h2>
+        <img src="{{ url_for('static', filename='DailyAvgConsvProd.png') }}" width="800" border="2">
+
+        <h2 style="color:orange; background-color:rgba(0,0,0,0.5); padding:5px; border-radius:5px;">
+            Energy Distribution Pie
+        </h2>
+        <img src="{{ url_for('static', filename='EnergyDistributionPie.png') }}" width="600" border="2">
+
+        <h2 style="color:violet; background-color:rgba(0,0,0,0.5); padding:5px; border-radius:5px;">
+            Hourly Consumption
+        </h2>
+        <img src="{{ url_for('static', filename='HourlyConsumption.png') }}" width="800" border="2">
+
+        <hr width="70%">
+        <p style="color:white; background-color:rgba(0,0,0,0.5); padding:5px; border-radius:5px;">
+            © 2025 Energy Dashboard Demo
+        </p>
+    </center>
+</body>
+</html>

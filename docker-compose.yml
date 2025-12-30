@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  flask_app:
+    build: .
+    container_name: flask_energy_dashboard
+    ports:
+      - "5000:5000"
+    depends_on:
+      - rabbitmq
+      - mongodb
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"   # broker port
+      - "15672:15672" # management UI
+
+  mongodb:
+    image: mongo:6
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
