@@ -44,6 +44,8 @@ python app.py
 
 ## 6. 📷 Output Screenshots
 
+### First Prototype:
+
 <img width="1470" height="956" alt="Screenshot 2025-12-31 at 3 14 31 AM" src="https://github.com/user-attachments/assets/29e93819-af5e-499d-a5f5-02090a6a96bb" />
 
 <img width="1470" height="956" alt="Screenshot 2025-12-31 at 3 15 12 AM" src="https://github.com/user-attachments/assets/89bb67d4-d7e3-4fbe-9be0-3ce997925324" />
@@ -51,3 +53,9 @@ python app.py
 <img width="1470" height="956" alt="Screenshot 2025-12-31 at 3 15 25 AM" src="https://github.com/user-attachments/assets/cc368b64-9e5a-46ed-9035-f03ae791704a" />
 
 <img width="1470" height="956" alt="Screenshot 2025-12-31 at 3 15 31 AM" src="https://github.com/user-attachments/assets/caa47636-0e39-4daa-9672-e9ab5027593e" />
+
+### Post WCAG Compliance Enhancements:
+
+<img width="1470" height="956" alt="Screenshot 2025-12-31 at 6 27 37 PM" src="https://github.com/user-attachments/assets/4c0b15f8-2eff-47b9-9dde-dbc11d8b34cc" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-31 at 6 28 32 PM" src="https://github.com/user-attachments/assets/1025b87a-2072-4f3a-854a-2175f3f5e374" />
